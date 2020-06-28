@@ -331,7 +331,7 @@ la mayoria son elementos de bloque
 ````html
 <p>
   <!-- Ruta Absoluta -->
-  <a href="https://ed.team">Educacion con honestidad</a>
+  <a href="https://sebastian.dev">Sebastian Marquez</a>
   <!-- Ruta Relativa, Misma carpeta -->
   <a href="usuarios.html">Usuarios</a>
   <a href="./usuarios.html">Usuarios</a>
