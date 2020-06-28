@@ -1,18 +1,20 @@
+# HTML
 ## Atributos HTML
 
 Todos los elementos HTML pueden tener atributos
-El href atributo de <a>especifica la URL de la página a la que va el enlace</a>
-<a>El src atributo de <img>especifica la ruta a la imagen que se mostrará</a>
-<a>Los atributos width y height de <img>proporcionan información sobre el tamaño de las imágenes.</a>
-<a>El alt atributo de <img>proporciona un texto alternativo para una imagen.</a>
-<a>El style atributo se usa para agregar estilos a un elemento, como color, fuente, tamaño y más</a>
-<a>El lang atributo de la etiqueta declara el idioma de la página web.</a>
-<a>El title atributo define información adicional sobre un elemento.</a>
+El href atributo de <a> especifica la URL de la página a la que va el enlace
+El src atributo de <img> especifica la ruta a la imagen que se mostrará
+Los atributos width y height de <img> proporcionan información sobre el tamaño de las imágenes.
+El alt atributo de <img> proporciona un texto alternativo para una imagen.
+El style atributo se usa para agregar estilos a un elemento, como color, fuente, tamaño y más
+El lang atributo de la etiqueta declara el idioma de la página web.
+El title atributo define información adicional sobre un elemento.
 
 ## HTML Headings
 
 Encabezados HTML
 Los encabezados HTML se definen con las etiquetas
+````html
 <h1>to
 </h1><h6>.
 </h6><h1>define el encabezado más importante.
@@ -25,38 +27,25 @@ Ejemplo
 </h4><h5>Heading 5
 </h5><h6>Heading 6
 </h6>
-
+````
 ## Párrafos HTML
 
-El
-
-elemento HTML define un párrafo.
-
+El elemento HTML define un párrafo.
 Un párrafo siempre comienza en una nueva línea, y los navegadores agregan automáticamente un espacio en blanco (un margen) antes y después de un párrafo.
 
 ## Reglas horizontales HTML
 
-La
-
-- - -
-
-etiqueta define un salto temático en una página HTML, y con frecuencia se muestra como una regla horizontal.
-
-El
-
-- - -
-
-elemento se usa para separar contenido (o definir un cambio) en una página HTML:
+La * * *  define un salto temático en una página HTML, y con frecuencia se muestra como una regla horizontal.
+El * * * elemento se usa para separar contenido (o definir un cambio) en una página HTML:
 
 ## Saltos de línea HTML
 
-El
-elemento HTML define un salto de línea.
+El elemento HTML define un salto de línea.
+Úselo si desea un salto de línea (una nueva línea) sin comenzar un nuevo párrafo:
+````HTML
+<br>
+````
 
-<br>
-Úselo
-si desea un salto de línea (una nueva línea) sin comenzar un nuevo párrafo:
-<br>
 ## el elemento HTML
 
 <code data-te-codeblock=""></code>
@@ -99,55 +88,40 @@ This is a paragraph.
 Fuentes
 
 La font-family propiedad CSS define la fuente que se utilizará para un elemento HTML:
-
 This is a heading
-
 This is a paragraph.
-
 Tamano del texto
 
 La font-size propiedad CSS define el tamaño del texto para un elemento HTML:
-
 This is a heading
-
 This is a paragraph.
 
 Alineación del texto
 
 La text-alignpropiedad CSS define la alineación horizontal del texto para un elemento HTML:
-
 Centered Heading
-
 Centered paragraph.
 
 Use el style atributo para diseñar elementos HTML
-
 Usar background-color para color de fondo
-
 Usar color para colores de texto
-
 Usar font-family para fuentes de texto
-
 Usar font-size para tamaños de texto
-
 Usar text-align para alineación de texto
 
-Formato de texto HTML
-
+### Formato de texto HTML
 HTML contiene varios elementos para definir texto con un significado especial.
-
 Los elementos de formato fueron diseñados para mostrar tipos especiales de texto:
-
-* Texto en negrita
-* Texto importante
-* Texto en cursiva
-* Texto enfatizado
-* Texto marcado
-* Texto más pequeño
-* Texto eliminado
-* Texto insertado
-* Texto del subíndice
-* Texto superíndice
+-   Texto en negrita
+-   Texto importante
+-   Texto en cursiva
+-   Texto enfatizado
+-   Texto marcado
+-   Texto más pequeño
+-   Texto eliminado
+-   Texto insertado
+-   Texto del subíndice
+-   Texto superíndice
 
 ## HTML CSS
 
@@ -172,6 +146,7 @@ Externo : mediante el uso de un <link> elemento para vincular a un archivo CSS e
 </head>
 
 ### Colores CSS, fuentes y tamaños
+
 Aquí, demostraremos algunas propiedades CSS comúnmente utilizadas. Aprenderá más sobre ellos más tarde.
 
 La color propiedad CSS define el color del texto que se utilizará.
@@ -179,7 +154,6 @@ La color propiedad CSS define el color del texto que se utilizará.
 La font-family propiedad CSS define la fuente que se utilizará.
 
 La font-size propiedad CSS define el tamaño del texto que se utilizará.
-
 
 ### Borde CSS
 
@@ -190,6 +164,7 @@ border: 2px solid powderblue;
 }
 
 ### Relleno CSS
+
 La padding propiedad CSS define un relleno (espacio) entre el texto y el borde.
 p {
   border: 2px solid powderblue;
@@ -197,13 +172,13 @@ p {
 }
 
 ### Margen CSS
+
 La marginpropiedad CSS define un margen (espacio) fuera del borde.
 
 p {
   border: 2px solid powderblue;
   margin: 50px;
 }
-
 
 Use el style atributo HTML para el estilo en línea
 Use el <style> elemento HTML para definir CSS interno
@@ -216,13 +191,14 @@ Use la border propiedad CSS para bordes
 Use la padding propiedad CSS para el espacio dentro del borde
 Use la margin propiedad CSS para espacio fuera del borde
 
-
 ## secciónes
 
 ### Header
+
 Crear seccion de Header como logo,
 
 ### nav
+
 Barra de navegacion, Home, Contacto, etc
 
 ### article
@@ -230,17 +206,20 @@ Barra de navegacion, Home, Contacto, etc
 ### section
 
 ### aside
+
 no corresponde al contenido pero queremos mostrará como publicidad
 
 ### footer
+
  pie de pagina
 
 ## Agrupaciones de contenido
-### Listas anidadas
-ul unorder List
-ol orderer List
-li list item
 
+### Listas anidadas
+ul :Unordered List
+ol :Orderer List
+li :List Item
+````html
 <ul>
   <li>item de lista 1</li>
   <li>item de lista 2
@@ -251,13 +230,14 @@ li list item
   </li>
   <li>item de lista 3</li>
 </ul>
-
+````
 ### Listas de definicion
-Sirven para indicar un termino y una definicion ej glosario
-dl Definition List
-dt Definition Term
-dd Definition description
 
+Sirven para indicar un termino y una definicion ej. glosario
+dl : Definition List
+dt : Definition Term
+dd : Definition description
+````html
 <dl class="">
   <dt>Peru</dt>
   <dd>Lima</dd>
@@ -266,15 +246,15 @@ dd Definition description
   <dt>Venezuela</dt>
   <dd>Caracas</dd>
 </dl>
+````
 
 ## Figure y Figcaption
 
-figure sirve para colocar contenido relacionado pero que rompa el fluje del contenido
+Figure sirve para colocar contenido relacionado pero que rompa el flujo del contenido
+Ejemplo un tutorial o contenido, noticia,etc en el que se inserta imagen, video, en el medio del documento que esta relacionado con el contenido.
 
-Ejemplo un tutorial o contenido y se inserta imagen, video, algo relacionado con el contenido
-
-Figcaption leyenda del contendio, description, titulo, opcional
-
+Figcaption es la leyenda del contenido, description, title, opcional
+````html
 <figure>
   <pre>
     <code>function hola() {
@@ -286,11 +266,12 @@ Figcaption leyenda del contendio, description, titulo, opcional
     Declaracion de una funcion JavaScript
   </figcaption>
 </figure>
-
+````
 ## Otros elementos
+
 ### Main
 el elemento mas importante, Contenido principal de la pagina
-
+````html
 <main>
   <p>este en un parrafo</p>
   <hr> <!-- horizontal rule -->
@@ -303,6 +284,62 @@ el elemento mas importante, Contenido principal de la pagina
     <!-- citas frases famosas, Destacar elemento del contenido -->
   </blockquote>
 </main>
-
+````
 ### Divisiones (Layout)
-Div y span son contendores de contenidos para luego ser usados por js, etc
+
+Div y span son contendores de contenidos para luego ser usados css ,js,etc
+
+## Elementos de Linea y Bloque
+
+los elementos de linea deben estar dentro de un elemento de Bloque,
+la mayoria son elementos de bloque
+````html
+ ul,li,p,blockquote,article,figure
+ ````
+ ````html
+<p>Este es un elemento de bloque</p>
+<span>Este es un elemento de linea</span>
+````
+### elementos de texto comunes
+
+````html
+<small></small>
+<strong></strong> <!--mas importanto  -->
+<em></em> <!--enfasis cursiva-->
+<cite></cite> <!--citar -->
+<dfn></dfn> <!--definicion ej Siglas-->
+<code></code> <!--fragmentos de codigos-->
+<data value=""></data>
+<br> <!--Quiebre de linea -->
+<q cite=""></q><!-- -->
+<abbr title=""></abbr> <!--Abbreviation -->
+<del></del> <!-- Deleted Text-->
+<wbr> <!-- Word Break Opportunity-->
+<span></span>  <!--Contendor de elementos de linea -->
+<i></i> <!-- italic -->
+<b></b> <!--bold o negrita-->
+<u></u> <!-- undeline -->
+<sup></sup> <!-- superíndice -->
+<sub></sub> <!-- subindice -->
+<time></time> <!-- Tiempo -->
+<mark></mark> <!-- resaltar el texto, remarcar -->
+<a href="#"></a> <!-- Hipertexto Enlaces -->
+````
+
+## Enlaces
+
+````html
+<p>
+  <!-- Ruta Absoluta -->
+  <a href="https://ed.team">Educacion con honestidad</a>
+  <!-- Ruta Relativa, Misma carpeta -->
+  <a href="usuarios.html">Usuarios</a>
+  <a href="./usuarios.html">Usuarios</a>
+  <!-- Ruta Relativa, Carpeta superior -->
+  <a href=../usuarios.html>Usuarios</a>
+  <!-- Ruta Relativa, 2 carpetas arriba y subdirectorio -->
+  <a href="../usuarios/usuarios.html"></a>
+  <!-- Ruta Relativa a la Raiz / -->
+  <a href="/usuarios.html">Usuarios</a>
+</p>
+````
