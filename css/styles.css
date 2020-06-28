@@ -2,14 +2,14 @@ body {
     background-color: white;
     color: black
   }
-  h1 ,h2  {
-    color: blue;
-  }
   p {
     color: black;
+  }
+  blockquote {
+    color: blue;
   }
 .city{
   background-color: tomato;
   color: white;
   padding: 10px;
-} 
+}

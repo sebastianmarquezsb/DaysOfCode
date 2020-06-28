@@ -215,3 +215,94 @@ Use la font-size propiedad CSS para tamaños de texto
 Use la border propiedad CSS para bordes
 Use la padding propiedad CSS para el espacio dentro del borde
 Use la margin propiedad CSS para espacio fuera del borde
+
+
+## secciónes
+
+### Header
+Crear seccion de Header como logo,
+
+### nav
+Barra de navegacion, Home, Contacto, etc
+
+### article
+
+### section
+
+### aside
+no corresponde al contenido pero queremos mostrará como publicidad
+
+### footer
+ pie de pagina
+
+## Agrupaciones de contenido
+### Listas anidadas
+ul unorder List
+ol orderer List
+li list item
+
+<ul>
+  <li>item de lista 1</li>
+  <li>item de lista 2
+    <ol>
+      <li>subitem de lista 1</li>
+      <li>subitem de lista 2</li>
+    </ol>
+  </li>
+  <li>item de lista 3</li>
+</ul>
+
+### Listas de definicion
+Sirven para indicar un termino y una definicion ej glosario
+dl Definition List
+dt Definition Term
+dd Definition description
+
+<dl class="">
+  <dt>Peru</dt>
+  <dd>Lima</dd>
+  <dt>Chile</dt>
+  <dd>Santiago</dd>
+  <dt>Venezuela</dt>
+  <dd>Caracas</dd>
+</dl>
+
+## Figure y Figcaption
+
+figure sirve para colocar contenido relacionado pero que rompa el fluje del contenido
+
+Ejemplo un tutorial o contenido y se inserta imagen, video, algo relacionado con el contenido
+
+Figcaption leyenda del contendio, description, titulo, opcional
+
+<figure>
+  <pre>
+    <code>function hola() {
+      return "Hola Mundo"
+    }
+  </code>
+  </pre>
+  <figcaption>
+    Declaracion de una funcion JavaScript
+  </figcaption>
+</figure>
+
+## Otros elementos
+### Main
+el elemento mas importante, Contenido principal de la pagina
+
+<main>
+  <p>este en un parrafo</p>
+  <hr> <!-- horizontal rule -->
+  <pre>  <!-- preformateado -->
+        este Texto
+   se representa
+     igual en el Navegador
+  </pre>
+  <blockquote cite="http://">
+    <!-- citas frases famosas, Destacar elemento del contenido -->
+  </blockquote>
+</main>
+
+### Divisiones (Layout)
+Div y span son contendores de contenidos para luego ser usados por js, etc
