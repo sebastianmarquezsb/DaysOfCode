@@ -139,7 +139,7 @@ La `color` propiedad CSS define el color del texto para un elemento HTML:
 <p style="color:red;">This is a paragraph.</p>
 ````
 
-* Color de Borde
+* Color de Borde  
 La `border` propiedad CSS define el borde para un elemento HTML:
 ```html
 <h1 style="border:2px solid Violet;">Hello World</h1>
@@ -154,12 +154,14 @@ La font-family propiedad CSS define la fuente que se utilizará para un elemento
 * Tamano del texto  
 La font-size propiedad CSS define el tamaño del texto para un elemento HTML:
 ````html
-<p style="font-size:160%;">This is a paragraph.</p>````
+<p style="font-size:160%;">This is a paragraph.</p>
+````
 
 * Alineación del texto  
 La text-alignpropiedad CSS define la alineación horizontal del texto para un elemento HTML:
 ````html
-<p style="text-align:center;">Centered paragraph.</p>````
+<p style="text-align:center;">Centered paragraph.</p>
+````
 
 Use el `style` atributo para diseñar elementos `HTML`  
 Usar `background-color` para color de fondo  
