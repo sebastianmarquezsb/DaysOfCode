@@ -146,19 +146,19 @@ La `border` propiedad CSS define el borde para un elemento HTML:
 ```   
 
 * Fuentes  
-La font-family propiedad CSS define la fuente que se utilizará para un elemento HTML:
+La `font-family` propiedad CSS define la fuente que se utilizará para un elemento HTML:
 ````html
 <p style="font-family:courier;">This is a paragraph.</p>
 ````
 
 * Tamano del texto  
-La font-size propiedad CSS define el tamaño del texto para un elemento HTML:
+La `font-size` propiedad CSS define el tamaño del texto para un elemento HTML:
 ````html
 <p style="font-size:160%;">This is a paragraph.</p>
 ````
 
 * Alineación del texto  
-La text-alignpropiedad CSS define la alineación horizontal del texto para un elemento HTML:
+La `text-align` propiedad CSS define la alineación horizontal del texto para un elemento HTML:
 ````html
 <p style="text-align:center;">Centered paragraph.</p>
 ````
